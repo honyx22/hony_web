@@ -5,8 +5,8 @@ const Hero = () => {
   return <div>
     <main className="r">
         <section className="font-[650] text-[60px]">
-            <div className="flex flex-col text-center lg:text-left lg:w-[1400px] pt-[20px] m-auto">
-                <div className="flex justify-between my-10 flex-col lg:flex-row">
+            <div className="flex flex-col text-center lg:text-left max-w-[1260px] 2xl:max-w-full lg:w-[1400px] pt-[20px] m-auto">
+                <div className="flex lg:justify-between my-10 flex-col lg:flex-row">
                     <div className="pt-[50px]">
                         <div className="">
                             <h2>Hi,</h2>
