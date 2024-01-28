@@ -1,9 +1,13 @@
 import Navbar from "./components/Navbar"
+import Hero from "./components/Hero"
+import Footer from "./components/Footer"
 
 const App = () => {
-  return <div className="font-Poppins">
+  return <div className="font-Poppins overflow-x-hidden lg:overflow-x-auto">
     <Navbar />
-    <h2 className="text-red-600">cs</h2>
+    <Hero />
+    <Footer />
+    
   </div>
 }
 export default App
